@@ -1,0 +1,119 @@
+\documentclass[a4paper,UTF8]{article}
+\usepackage{ctex}
+\usepackage[margin=1.25in]{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+%\usepackage[thmmarks, amsmath, thref]{ntheorem}
+\theoremstyle{definition}
+\newtheorem*{solution}{Solution}
+\newtheorem*{prove}{Proof}
+\usepackage{multirow}
+\usepackage{url}
+\CTEXoptions[today=old]
+%--
+
+%--
+\begin{document}
+\title{Homework 5}
+\author{123456,蟹老板}
+\maketitle
+
+
+\section*{Deadline}
+Due: November 1, 2019, 23:59. Good luck!
+
+\section*{Problem 1}
+Prove the following equations and tautological implication. (Hint:5.1, 5.2, 5.4.2 in the textbook)
+\begin{enumerate}
+\item
+\begin{align*}
+&\neg(\exists x)(\exists y)( P(x)\wedge P(y)\wedge Q(x)\wedge Q(y)\wedge R(x,y) )\\
+=&(\forall x)(\forall y)( ( P(x)\wedge P(y)\wedge Q(x)\wedge Q(y) )\rightarrow \neg R(x,y) )
+\end{align*}
+\item
+\begin{align*}
+&(\exists x)( P(x)\rightarrow Q(x) )\\
+=&(\forall x)P(x)\rightarrow (\exists x)Q(x)
+\end{align*}
+\item
+\begin{align*}
+&(\forall y)(\exists x)( (P(x)\rightarrow q)\vee S(y) )\\
+=&(( \forall x )P(x)\rightarrow q )\vee(\forall y)S(y)
+\end{align*}
+\item
+\begin{align*}
+&(\exists x)P(x)\rightarrow (\forall x)Q(x)\\
+\Rightarrow&(\forall x)( P(x)\rightarrow Q(x) )
+\end{align*}
+\end{enumerate}
+\begin{solution}
+~\\
+Your solution here.
+\end{solution}
+
+
+
+\section*{Problem 2}
+\begin{enumerate}
+\item Prove $(\forall x)( P(x)\vee Q(x) )\wedge (\forall x)( Q(x)\rightarrow\neg R(x) )\Rightarrow(\exists x)( R(x)\rightarrow P(x) )$ by deduction in 5.5.
+\item Every student in the university is either an undergraduate or a postgraduate. Some students are male. John is not a postgraduate but he is male. Therefore, if John is a student in the university, he must be an undergraduate. Represent these statements in predicate logic and prove the conclusion ("if John is a student in the university, he must be an undergraduate") by resolution method in 5.6
+\end{enumerate} 
+\begin{solution}
+~\\
+Your solution here.
+\end{solution}
+
+
+\section*{Problem 3}
+Determine if the following deduction are right. Explain your reasons if the deduction is wrong.
+\begin{enumerate}
+\item If $(\forall x)P(x)\rightarrow Q(x)$, then $P(a)\rightarrow Q(a)$.
+\item If $\neg(\exists x)( \neg P(x)\wedge\neg Q(x) )$, then $\neg( (\exists x)\neg P(x)\wedge (\exists x)\neg Q(x) )$.
+\item If $(\exists x)( \neg P(x)\wedge\neg Q(x) )$, then $(\exists x)\neg P(x)\wedge (\exists x)\neg Q(x)$.
+\end{enumerate}
+\begin{solution}
+~\\
+Your solution here.
+\end{solution}
+
+
+\section*{Problem 4}
+Determine if the following formulas are universally valid. If they are universally valid, give the proof. Otherwise, give the counterexample.
+\begin{enumerate}
+\item $( (\exists x)P(x)\rightarrow (\exists x)Q(x) )\rightarrow(\exists x)( P(x)\rightarrow Q(x) )$
+\item $(\forall x)(\exists y)P(x,y)\rightarrow (\exists y)(\forall x)P(x,y) $
+\end{enumerate}
+\begin{solution}
+~\\
+Your solution here.
+\end{solution}
+
+
+\section*{Problem 5}
+Encode $f(b)=b, f(b)=f(a), a=c,  f(c)\neq b$ into a SAT problem and determine the satisfiability of it. You don't need to write the process of DPLL. Directly write its satisfiability.
+\begin{solution}
+~\\
+Your solution here.
+\end{solution}
+
+
+\section*{Problem 6}
+Describe how to solve $f(b)=b, f(b)=f(a), a=c, b\neq c, f(c)\neq a$ by EUF solver. Draw the graph like that in slides.
+\begin{solution}
+~\\
+Your solution here.
+\end{solution}
+
+
+\section*{Problem 7}
+Solve $ f(i) - f(j)\neq 0\wedge i-j= 0 $ by the Nelson-Oppen Method.
+\begin{solution}
+~\\
+Your solution here.
+\end{solution}
+
+\end{document}
+

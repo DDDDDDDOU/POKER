@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/Widget">
+        <file>img/background1.JPG</file>
+        <file>img/tubiao.png</file>
+        <file>img/tubiao2.png</file>
+        <file>img/tubiao3.png</file>
+    </qresource>
+</RCC>

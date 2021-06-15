@@ -1,0 +1,73 @@
+\documentclass[a4paper,UTF8]{article}
+\usepackage{ctex}
+\usepackage[margin=1.25in]{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+%\usepackage[thmmarks, amsmath, thref]{ntheorem}
+\theoremstyle{definition}
+\newtheorem*{solution}{Solution}
+\newtheorem*{prove}{Proof}
+\usepackage{multirow}
+\usepackage{url}
+\CTEXoptions[today=old]
+%--
+
+%--
+\begin{document}
+\title{Homework 14}
+\author{4396,baseline}
+\maketitle
+
+
+\section*{Problem 1}
+
+Let $L_1,L_2,\dots,L_k$ be a collection of languages over alphabet $\Sigma$ such that:
+\begin{enumerate}
+	\item For all $i\neq j,L_i\cap L_j=\varnothing$;i.e., no string is in two of languages.
+	\item $L_1\cup L_2\cup \dots \cup L_k=\Sigma^*$;i.e, every string is in one of the languages.
+	\item Each of the languages $L_i$, for $i=1,2,\dots,k$ is recursively enumerable 
+\end{enumerate}
+
+Prove that each of the languages is recursive.
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+
+
+\section* {Problem 2}
+Let $L_1,L_2$ be two recursive languages, give an informal, but clear, construction to show that the concatenation  of two languages $L_3=\{w_1w_2|w_1\in L_1 \land w_2 \in L_2\}$ is also recursive.
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+
+\section* {Problem 3}
+
+Encoding the TM to binary string(You may need to reassign the states):
+
+\begin{tabular}{ |c||c|c|c|   }
+	\hline
+	& 0 & 1 & B\\
+	\hline
+	$\rightarrow q_0$   & $(q_0,1,R)$    & $(q_0,0,R)$&   $(q_1,B,L)$\\
+	\hline
+	$q_1$&   $(q_2,0,L)$ & -   &-\\
+	\hline
+	$*q_2$&- & -&  -\\
+	\hline
+\end{tabular}
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+
+
+
+\end{document}

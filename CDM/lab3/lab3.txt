@@ -1,0 +1,9 @@
+requires 0<y &&  x != 0
+#
+requires  0 < v < a.Length
+#
+forall k :: 0 <= k<a.Length ==>a[k]!=0
+#
+invariant 0<=index <= a.Length
+invariant forall i::0<=i<index ==> min <=a[i]
+#

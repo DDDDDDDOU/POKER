@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build RBT",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-o",
+                "RBT",
+               // "-L/usr/library",
+                "main.cpp",
+                "rbt.cpp",
+                //"rbt.h",
+                
+                
+                
+
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run RBT",
+            "type": "shell",
+            "command": "${workspaceRoot}/RBT",
+            "args": [ ],
+            "dependsOn": "Build RBT",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        }
+    ]
+}

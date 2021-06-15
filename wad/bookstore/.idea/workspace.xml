@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51dcb5ff-1733-4d50-a490-41551baa1b53" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/config-overrides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/LoginRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/PrivateRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/Router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/assets/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/assets/carousel/book1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/assets/carousel/book2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/assets/carousel/book3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/assets/carousel/book4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/assets/logo-name.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/assets/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/Book.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/BookCarousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/BookDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/BookList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/HeaderInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/SearchBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/SideBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/UserAvatar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/css/bookDetail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/services/bookService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/services/userService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/utils/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/utils/history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/view/BookView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/view/HomeView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/view/LoginView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore_frontend/.idea/bookstore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_frontend/.idea/bookstore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore_frontend/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore_frontend/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_frontend/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore_frontend/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_frontend/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore_frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore_frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore_frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore_frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_frontend/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bookstore_frontend" />
+  </component>
+  <component name="ProjectId" id="1ZCFNmWciJe2JvscsPhRw1wOvqd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51dcb5ff-1733-4d50-a490-41551baa1b53" name="Default Changelist" comment="" />
+      <created>1584335132149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584335132149</updated>
+      <workItem from="1584335136449" duration="326000" />
+      <workItem from="1584336208584" duration="66000" />
+      <workItem from="1584336730549" duration="2677000" />
+      <workItem from="1584430464247" duration="3497000" />
+      <workItem from="1584444996881" duration="259000" />
+      <workItem from="1584528069968" duration="132000" />
+      <workItem from="1584546411458" duration="1504000" />
+      <workItem from="1584597787133" duration="207000" />
+      <workItem from="1585633356899" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="229" y="64" key="SettingsEditor" timestamp="1584335165163">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="229" y="64" key="SettingsEditor/0.23.1440.804@0.23.1440.804" timestamp="1584335165163" />
+  </component>
+</project>

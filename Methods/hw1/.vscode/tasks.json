@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build bloom",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-o",
+                "bloom",
+                "main.cc",
+                "bloom.cc",
+                "bloom.h.cc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run bloom",
+            "type": "shell",
+            "command": "${workspaceRoot}/bloom",
+            "args": [ ],
+            "dependsOn": "Build bloom",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        }
+    ]
+}

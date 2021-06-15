@@ -1,0 +1,151 @@
+\documentclass[a4paper,UTF8]{article}
+\usepackage{ctex}
+\usepackage[margin=1.25in]{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+%\usepackage[thmmarks, amsmath, thref]{ntheorem}
+\theoremstyle{definition}
+\newtheorem*{solution}{Solution}
+\newtheorem*{prove}{Proof}
+\usepackage{multirow}
+\usepackage{url}
+\CTEXoptions[today=old]
+%--
+
+%--
+\begin{document}
+\title{Homework 8}
+\author{123456,章鱼哥}
+\maketitle
+
+
+\section*{Problem 1}
+Let universal set $E=\{1,2,3,4,5\}$, set $A=\{1,4\}$, $B=\{1,2,5\}$, $C=\{2,4\}$, calculating the sets:
+\begin{enumerate}
+	\item $A\cup -B$
+	\item $(A\cap B)\cup -C$
+	\item $(A \cup B)\oplus C$
+	\item $\mathcal{P}(A) - \mathcal{P}(B)$
+\end{enumerate}
+
+
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+
+
+\section*{Problem 2}
+Let $A$, $B$ and $C$ be sets. Prove that:
+\begin{enumerate}
+	\item $A\oplus B = (A\cup B) \cap (\overline{B}\cup \overline{A})$
+	\item $(A-B) -C \subseteq A-C$
+	\item $(B-A) \cup (C-A) = (B\cup C)-A$
+	\item $\bigcup (\mathcal{P}(A))=A$
+	\item $\bigcup (A\cup B)=(\bigcup A)\cup (\bigcup B)$
+\end{enumerate}
+
+
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+\section*{Problem 3}
+\textbf{Definition 9.5.1 Transitive Set :}A set of sets $A$ is called transitive set if any element of $A$'s element is an element of $A$, or :
+$$A\text{ is a transitive set}\Leftrightarrow (\forall x)(\forall y)((x\in y\land y\in A)\rightarrow x\in A)$$
+For example $A=\{\varnothing,\{\varnothing\},\{\varnothing,\{\varnothing\}\}\}$ is a transitive set. Prove that:
+
+$$A \text{ is a transitive set} \Leftrightarrow \bigcup A \subseteq A$$
+
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+
+
+\section*{Problem 4}
+Let $A$, $B$ and $C$ be sets. Prove that:
+\begin{enumerate}
+	\item $A\subseteq C \land B\subseteq C \Leftrightarrow A\cup B \subseteq C$
+	\item $A=B \Leftrightarrow A\subseteq B \land B \subseteq A$
+	\item $\mathcal{P}(A)\subseteq \mathcal{P}(B) \Leftrightarrow A\subseteq B$
+	\item $\mathcal{P}(A) = \mathcal{P}(B) \Leftrightarrow A= B $ 
+	\item $A\subseteq B \Rightarrow \bigcup A \subseteq \bigcup B$
+	
+\end{enumerate}
+
+
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+
+
+\section*{Problem 5}
+\textbf{Definition 9.7.2 Singular Set:} A set $A$ is called singular set if there exists an infinite sequence of $A$'s elements, $A_0 \in A,A_1\in A,A_2\in A,...,A_n\in A,...$(not necessarily distinct) such that:
+$$...\in A_{n+1}\in A_n \in ... \in A_2 \in A_1 \in A_0$$
+
+Prove that:
+\begin{enumerate}
+	\item If $x\in x$, then $\{x\}$ is a singular set.
+	\item There don't exist set $A$ and $B$ such that $(A\in B \land B\in A)$. (Tips: Constructing a singular set based on $A$ and $B$ and using theorem 9.7.9)
+\end{enumerate}
+
+
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+\section*{Problem 6}
+Let $A$ be a set, prove that $\{A\}$ is a set :
+\begin{enumerate}
+	\item Using the axiom of paring.
+	\item Without using the axiom of paring.
+\end{enumerate}
+
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+
+\section*{Problem 7}
+Let $A$ be a set of sets and $|A|=n(n>0)$. Prove that:
+$$|\bigcup A| >n \Rightarrow (\exists A_0 )(A_0\in A \land |A_0|>1)$$
+
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+\section*{Problem 8}
+Find the number of integers such that $1 \le x\le 2019$ and $x$ is relatively prime to 2020.  
+
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+
+\section*{Problem 9}
+Prove that:
+\begin{enumerate}
+	\item $[0,1]\approx [a,b]$, where $a<b,a\in \mathbb{R}$ and $b\in \mathbb{R}$
+	\item $[0,1]\approx \mathbb{R}$
+\end{enumerate}
+
+\begin{solution}
+~\\
+Your solution here.
+\end{solution}
+
+
+\end{document}

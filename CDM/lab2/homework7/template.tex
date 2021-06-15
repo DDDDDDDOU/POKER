@@ -1,0 +1,80 @@
+\documentclass[a4paper,UTF8]{article}
+\usepackage{ctex}
+\usepackage[margin=1.25in]{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+%\usepackage[thmmarks, amsmath, thref]{ntheorem}
+\theoremstyle{definition}
+\newtheorem*{solution}{Solution}
+\newtheorem*{prove}{Proof}
+\usepackage{multirow}
+\usepackage{url}
+\CTEXoptions[today=old]
+%--
+
+%--
+\begin{document}
+\title{Homework 7}
+\author{123456,企鹅男孩}
+\maketitle
+
+\section*{Deadline}
+Due: November 8, 2019, 23:59. Good luck!
+
+\section*{Problem 1}
+Write preconditions and postconditions of the following incomplete Hoare triples to make them valid.
+\begin{enumerate}
+\item $\{ a>2 \}a:=a+1\{~~~~\}$
+\item $ \{~~~~\}~~if(a==0)~then~a:=1~else~a:=3\{ a=3 \} $
+\item $ \{~~~~\}~~a:=b-c~~\{a=5\} $
+\item $ \{a=3\}while(a<10)a:=a+1\{~~~~\} $
+\end{enumerate}
+\begin{solution}
+~\\
+Your solution here.
+\end{solution}
+
+
+
+\section*{Problem 2}
+Prove $ \{ a=v0\wedge b=v1 \} c:=a; a:=b; b:=c \{ a=v1\wedge b=v0 \}  $.
+\begin{solution}
+~\\
+Your solution here.
+\end{solution}
+
+
+\section*{Problem 3}
+Prove $ \{ T \}~~if(a==1)~then~b:=3~else~b:=1~~\{ b=1\vee b=3 \}  $.
+\begin{solution}
+~\\
+Your solution here.
+\end{solution}
+
+\section*{Problem 4}
+Prove $ \{ a= 3 \}~~while(a!=10)~a:=a+1~~\{ a=10 \} $. The loop invariant is $a\leq 10$.
+\begin{solution}
+~\\
+Your solution here.
+\end{solution}
+
+\section*{Problem 5}
+Write a weaker precondition and a stronger postcondition for $\{ b=7 \}a:=b+3\{ a>5 \}$.
+\begin{solution}
+~\\
+Your solution here.
+\end{solution}
+
+\section*{Problem 6}
+Compute $wlp(a:=b-1;~~if(a==10)~then~c:=a+1~else~c:=a+2~~~~,~~~~c>4 )$
+\begin{solution}
+~\\
+Your solution here.
+\end{solution}
+
+
+\end{document}
+

@@ -1,0 +1,116 @@
+\documentclass[a4paper,UTF8]{article}
+\usepackage{ctex}
+\usepackage[margin=1.25in]{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+%\usepackage[thmmarks, amsmath, thref]{ntheorem}
+\theoremstyle{definition}
+\newtheorem*{solution}{Solution}
+\newtheorem*{prove}{Proof}
+\usepackage{multirow}
+\usepackage{url}
+\CTEXoptions[today=old]
+%--
+
+%--
+\begin{document}
+\title{Homework 11}
+\author{123456,AllMight}
+\maketitle
+
+\section*{Problem 1}
+Find $t(R)$ using warshall algorithm for the relation given blow.
+$$M_R=\left[\begin{array}{cccc} 
+0 & 1 & 0 & 0 \\ 
+0 & 0 & 1 & 0 \\ 
+0 & 0 & 0 & 1 \\
+0 & 1 & 0 & 0 \\
+\end{array}\right]
+$$
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+
+
+
+\section*{Problem 2}
+\textbf{Theorem 10.5.11: }For a relation $R$ on a non-empty set, prove that:
+\begin{enumerate}
+	\item If $R$ is reflexive, then $s(R)$ and $t(R)$ are both reflexive.
+	\item If $R$ is transitive, then $r(R)$ is transitive. And find a counterexample to show that $s(R)$ is not transitive.
+\end{enumerate}
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+
+
+\section*{Problem 3}
+An equivalence closure $e(R)$ for releation $R$ is defined by:
+\begin{enumerate}
+	\item $e(R)$ is an equivalence relation.
+	\item For any equivalence $R'$, if $R\subseteq R'$, then $e(R)\subseteq R'$
+\end{enumerate} 
+
+For a relation $R$ on a non-empty set, prove that $tsr(R)$ (defined in theorem 10.5.12) is the equivalence closure of $R$.
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+
+
+\section*{Problem 4}
+Determine wether $f:\mathbb{Z}\times \mathbb{Z}\rightarrow \mathbb{Z}$ is surjective if:
+\begin{enumerate}
+	\item $f(m,n)=m+n$
+	\item $f(m,n)=m-n$
+	\item $f(m,n)=|m|-|n|$
+	\item $f(m,n)=m^2+n^2$
+	\item $f(m,n)=m^2-n^2$
+\end{enumerate}
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+
+\section*{Problem 5}
+For every function below, answer the questions:
+
+\begin{enumerate}
+	\item Whether the function is injective, surjective or bijective. If it is bijective, write down the expression of $f^{-1}$
+	\item Write down the image of the function and the inverse image of a given set $S$.
+	\item The relation $R=\{\langle x,y\rangle | x,y \in dom(f) \land f(x)=f(y)\}$ is an equivalence relation on $dom(f)$, find this relation for the function.
+\end{enumerate}
+
+All the functions:
+\begin{enumerate}
+	\item $f:\mathbb{R}\rightarrow (0,\infty),f(x)=2^x,S=[1,2]$
+	\item $f:\mathbb{N}\rightarrow \mathbb{N},f(n)=2n+1,S=\{2,3\}$
+	\item $f:\mathbb{Z}\rightarrow \mathbb{N},f(x)=|x|,S=\{0,2\}$
+	\item $f:\mathbb{N}\rightarrow \mathbb{N}\times \mathbb{N},f(n)=\langle n,n+1\rangle,S={\langle 2,2\rangle }$
+	\item $f:[0,1]\rightarrow [0,1],f(x)=\frac{2x+1}{4},S=[0,\frac{1}{2}]$
+\end{enumerate}
+
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+
+\section*{Problem 6}
+Let $f,g \in A_B$, and $f\cap g\neq \varnothing$, are $f\cap g$ and $f\cup g$ are functions? If so, prove it. If not, show the counterexample. 
+\begin{solution}
+	~\\
+	Your solution here.
+\end{solution}
+
+
+\end{document}
